@@ -19,3 +19,11 @@ resource "aws_instance" "example_server" {
 
   }
 }
+
+resource "aws_s3_bucket" "example22" {
+  bucket = "shivani-test-bucket"
+
+  tags = {
+    Name        = "My bucket"
+  }
+}
