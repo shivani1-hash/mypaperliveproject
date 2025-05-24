@@ -18,7 +18,6 @@ resource "aws_instance" "example_server" {
   instance_type = "t2.micro"
 
   }
-}
 
 resource "aws_s3_bucket" "example22" {
   bucket = "shivani-test-bucket"
