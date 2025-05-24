@@ -5,7 +5,7 @@ resource "aws_instance" "example_server" {
   }
 
 resource "aws_s3_bucket" "example22" {
-  bucket = "shivani-test-bucket"
+  bucket = "shivani-test-bucket12345"
 
   tags = {
     Name        = "My bucket"
